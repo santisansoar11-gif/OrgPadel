@@ -1,0 +1,26 @@
+TP7 - PADEL TOURNAMENT ORGANIZER
+
+YA TENES MYSQL Y LA BASE DEL TP6: NO NECESITAS CREARLA DE NUEVO.
+
+1) Descomprimí esta carpeta dentro de C:\xampp\htdocs\
+2) Iniciá Apache y MySQL desde XAMPP.
+3) Abrí CMD y pegá estas dos líneas:
+
+cd C:\xampp\htdocs\Padel_Tournament_Organizer_TP7
+C:\xampp\php\php.exe scripts\crear_admin.php
+
+4) Escribí tu nombre, email y una contraseña nueva.
+   OJO: la contraseña se ve al escribirla en CMD.
+5) Abrí http://localhost/Padel_Tournament_Organizer_TP7/login.php
+6) Entrá como administrador y pulsá 'Administrar' -> 'Crear torneo'.
+7) Creá uno con una fecha futura y guardalo.
+8) Visitá /torneos-de-padel.php: el torneo aparece automáticamente.
+9) Editalo y borrá el torneo de prueba desde /admin/index.php.
+
+PARA INSCRIBIR JUGADORES:
+- Cerrá sesión, registrá una cuenta normal en /registro.php.
+- Abrí un torneo que tenga la misma categoría, pulsá Inscribirme.
+- Volvé como administrador y entrá en /admin/inscripciones.php.
+
+Si no se conecta a la BD revisá .env.example y el README.md.
+NO vuelvas a importar el TP6 si ya lo hiciste.
