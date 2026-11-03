@@ -1,0 +1,16 @@
+TP8 — PADEL TOURNAMENT ORGANIZER
+
+1) No borres MySQL: usaremos la misma base padel_tournament_organizer del TP6.
+2) Respaldá tu proyecto anterior.
+3) Extraé este proyecto en C:\xampp\htdocs\Padel_Tournament_Organizer_TP8
+4) Iniciá Apache y MySQL desde XAMPP.
+5) Abrí http://localhost/Padel_Tournament_Organizer_TP8/
+6) Registra una cuenta en /registro.php y luego entrá por /login.php.
+7) Abrí /mi-cuenta.php para verificar la sesión. Probá /mis-inscripciones.php.
+8) Con la cuenta de un jugador intentá /admin/index.php: debe mostrar Acceso denegado.
+9) Cerrá sesión con el botón Salir; volvé a /mi-cuenta.php: debe pedir login.
+10) Entrá con tu admin preexistente y creá un torneo para mostrar que TP7 continúa funcionando.
+
+Si NO tenés administrador todavía, desde localhost abrí /crear-admin-local.php.
+NUNCA ejecutes de nuevo tp6/consultas.sql sobre una base que ya tiene los datos.
+Guía detallada: tp8/README_TP8.md

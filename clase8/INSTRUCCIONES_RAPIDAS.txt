@@ -1,0 +1,8 @@
+TP8 - Padel Tournament Organizer
+1. No borres ni recrees la base de MySQL del TP6.
+2. Extraé en C:\xampp\htdocs\Padel_Tournament_Organizer_TP8.
+3. Iniciá Apache y MySQL en XAMPP.
+4. Abrí http://localhost/Padel_Tournament_Organizer_TP8/registro.php
+5. Registrate, iniciá sesión, probá Mi cuenta y cerrá sesión.
+6. Para administrar torneos usá tu cuenta admin ya existente.
+7. Abrí tp8/README_TP8.md para la guía completa del profesor.
